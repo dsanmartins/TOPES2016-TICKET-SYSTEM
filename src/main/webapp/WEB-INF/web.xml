@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+	</jsp-config>
+	<welcome-file-list>
+		<welcome-file>
+            index.jsp
+        </welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description></description>
+		<display-name>CreateClient</display-name>
+		<servlet-name>CreateClient</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateClient</servlet-name>
+		<url-pattern>/servlet/CreateClient</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>CreateSeat</display-name>
+		<servlet-name>CreateSeat</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateSeatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateSeat</servlet-name>
+		<url-pattern>/servlet/CreateSeat</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>UpdateSeat</display-name>
+		<servlet-name>UpdateSeat</servlet-name>
+		<servlet-class>org.floristan.servlet.UpdateSeatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateSeat</servlet-name>
+		<url-pattern>/servlet/UpdateSeat</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>DeleteSeat</display-name>
+		<servlet-name>DeleteSeat</servlet-name>
+		<servlet-class>org.floristan.servlet.DeleteSeatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteSeat</servlet-name>
+		<url-pattern>/servlet/DeleteSeat</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>CreateMusicalEvent</display-name>
+		<servlet-name>CreateMusicalEvent</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateMusicalEventServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateMusicalEvent</servlet-name>
+		<url-pattern>/servlet/CreateMusicalEvent</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>LoadMusicalEvent</display-name>
+		<servlet-name>LoadMusicalEvent</servlet-name>
+		<servlet-class>org.floristan.servlet.LoadMusicalEventServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadMusicalEvent</servlet-name>
+		<url-pattern>/servlet/LoadMusicalEvent</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>LoadClient</display-name>
+		<servlet-name>LoadClient</servlet-name>
+		<servlet-class>org.floristan.servlet.LoadClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadClient</servlet-name>
+		<url-pattern>/servlet/LoadClient</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>UpdateClient</display-name>
+		<servlet-name>UpdateClient</servlet-name>
+		<servlet-class>org.floristan.servlet.UpdateClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateClient</servlet-name>
+		<url-pattern>/servlet/UpdateClient</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DeleteClient</display-name>
+		<servlet-name>DeleteClient</servlet-name>
+		<servlet-class>org.floristan.servlet.DeleteClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteClient</servlet-name>
+		<url-pattern>/servlet/DeleteClient</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>LoadSeats</display-name>
+		<servlet-name>LoadSeats</servlet-name>
+		<servlet-class>org.floristan.servlet.LoadSeatsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadSeats</servlet-name>
+		<url-pattern>/servlet/LoadSeats</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>LoadClients</display-name>
+		<servlet-name>LoadClients</servlet-name>
+		<servlet-class>org.floristan.servlet.LoadClientsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadClients</servlet-name>
+		<url-pattern>/servlet/LoadClients</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>CreateTicket</display-name>
+		<servlet-name>CreateTicket</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateTicket</servlet-name>
+		<url-pattern>/servlet/CreateTicket</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>CreateCategory</display-name>
+		<servlet-name>CreateCategory</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateCategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateCategory</servlet-name>
+		<url-pattern>/servlet/CreateCategory</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>UpdateCategory</display-name>
+		<servlet-name>UpdateCategory</servlet-name>
+		<servlet-class>org.floristan.servlet.UpdateCategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateCategory</servlet-name>
+		<url-pattern>/servlet/UpdateCategory</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DeleteCategory</display-name>
+		<servlet-name>DeleteCategory</servlet-name>
+		<servlet-class>org.floristan.servlet.DeleteCategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteCategory</servlet-name>
+		<url-pattern>/servlet/DeleteCategory</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>LoadSeatCategories</display-name>
+		<servlet-name>LoadSeatCategories</servlet-name>
+		<servlet-class>org.floristan.servlet.LoadSeatCategoriesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadSeatCategories</servlet-name>
+		<url-pattern>/servlet/LoadSeatCategories</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>CreateBill</display-name>
+		<servlet-name>CreateBill</servlet-name>
+		<servlet-class>org.floristan.servlet.CreateBillServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateBill</servlet-name>
+		<url-pattern>/servlet/CreateBill</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description></description>
+		<display-name>DeleteTicket</display-name>
+		<servlet-name>DeleteTicket</servlet-name>
+		<servlet-class>org.floristan.servlet.DeleteTicketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTicket</servlet-name>
+		<url-pattern>/servlet/DeleteTicket</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
