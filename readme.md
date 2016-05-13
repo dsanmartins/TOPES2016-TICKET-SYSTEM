@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Music Ticket System.
+=======
+﻿TOPES 2016
+>>>>>>> stash
 ========================
 
 What is it?
