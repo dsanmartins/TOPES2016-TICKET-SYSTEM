@@ -14,10 +14,10 @@
 	<!-- mvn -Dmessage="commit maven test" scm:checkin -->
 	<!-- mvn -Dmessage="commit maven test" scm:update -->
 	<scm>
-		<connection>scm:svn:http://127.0.0.1/dummy</connection>
-		<developerConnection>scm:svn:https://127.0.0.1/dummy</developerConnection>
+		<connection>scm:git:https://github.com/dsanmartins/TOPES2016-TICKET-SYSTEM.git</connection>
+		<developerConnection>scm:git:https://github.com/dsanmartins/TOPES2016-TICKET-SYSTEM.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>http://127.0.0.1/dummy</url>
+		<url>:https://github.com/dsanmartins/TOPES2016-TICKET-SYSTEM.git</url>
 	</scm>
 
 	<properties>
